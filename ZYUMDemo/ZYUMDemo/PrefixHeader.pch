@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  ZYUMDemo
+//
+//  Created by yrtt on 16/12/13.
+//  Copyright © 2016年 ZhangYing. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UMSocialCore/UMSocialCore.h>
+#import "ThirdUMLogin.h"                            //友盟登录
+#import "ThirdUMShare.h"
+
+// 友盟 ID KEY
+#define UMAppKey                    @""// 这里对应添加你的 id 和 key
+#define QQ_AppID                    @""
+#define QQ_AppKey                   @""
+#define Wechat_AppID                @""
+#define Wechat_AppSecret            @""
+#define Sina_AppID                  @""
+#define Sina_AppSecret              @""
+#define ShareURL                    @""
+
+#endif /* PrefixHeader_pch */
